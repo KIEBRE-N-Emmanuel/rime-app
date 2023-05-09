@@ -1,0 +1,2613 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756"
+     versionIRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756">
+    <Prefix name="" IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/rime01/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-29" IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#"/>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Accueil_et_information_des_usagers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Activités_physique_et_sportive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_économiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_impôts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_touristiques_et_hôteliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_du_trésor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_archivistique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_bibliothéconomie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_documentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_gestion_du_patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administrateur_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_Lycées_et_collèges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_Trésor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_territoire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_travail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_et_gestion_scolaire_et_universitaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_fiscale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_économiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_du_génie_rural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_agriculture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_assainissement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_hydraulique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Animation_de_la_vie_scolaire_et_orientation_scolaire_et_rofessionnelle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Architecture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_économiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_services_touristiques_et_hôteliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_aménagement_du_territoire_et_en_dévelopement_local"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_archivistique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_bibliothéconomie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_documentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_formation_des_agriculteurs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_gestion_du_patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_journalisme_et_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aviation_civile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Chirurgie_dentaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_économiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_services_touristiques_et_hôteliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_agriculture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_aménagement_du_territoire_et_en_développement_local"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_archivistique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_bibliothéconomie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_documentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_gestion_du_patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_statistique_et_analyse_du_dévelopement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_économie_et_développement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_impôts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_du_trésor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Diagnostic_et_soins_vétérinaires"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Diplomatie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Droits_humains"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Démogaphe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Economie_et_développement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_de_la_petite_enfance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_sociale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_spécialisée"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Emploi_et_formation_professionnelle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Energie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Enseignement_post_primaire_et_secondaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Enseignement_primaire_et_éducation_non_formelle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Etudes_et_analyses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Formation_agricole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gardiennage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_archives"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_bibliothèques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_centres_de_documentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_ressources_humaines_et_management_des_administrations"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_services_de_santé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_du_courrier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_civil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Géologie_et_mines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrogéologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Imagerie_magnétique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Imagerie_médicale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Informatique_et_télécommunication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_du_génie_rural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_assainissement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_hydraulique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_techniques_de_I_S_information_et_de_la_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_du_génie_rural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_assainissement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_hydraulique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_agriculture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_pédologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_vulgarisation_agricole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien_économiste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_des_impôts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_du_trésor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Interprétariat_traduction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Interprétation_judiciaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Jeunesse_et_éducation_permanente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journalisme_et_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journaliste"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Laboratoire_de_biologie_médicale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Laboratoire_des_lycées_et_collèges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Logistique_de_santé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Maintenance_biomédicale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Maintenance_en_météorologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Mines_et_énergie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Médecine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Météorologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Nutrition_et_diététique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:PA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:PB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:PC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pharmacie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Production_agricole"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_du_genre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Psychologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Psychomotricité"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pédologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Reprographie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ressources_halieutiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_communautaire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_environnementale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Sciences_Pharmaceutiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Secrétariat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Services_touristiques_hôteliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Soins_et_production_animaliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Soins_infirmiers_et_obstétricaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_de_la_statistique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_du_génie_rural"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_agriculture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_assainissement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_hydraulique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_pédologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Topographie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Transport_terrestre_et_maritime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Urbanisme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_de_l&apos;environnement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conduite_de_véhicules_de_l&apos;Etat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l&apos;hydrologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l’hydrogéologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_de_l&apos;environnement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_d&apos;élevage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;environnement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;hydrologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technologie_d’assistance_médicale"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Accueil_et_information_des_usagers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Activités_physique_et_sportive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_économiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_impôts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_touristiques_et_hôteliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_du_trésor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_archivistique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_bibliothéconomie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_documentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_gestion_du_patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administrateur_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_Lycées_et_collèges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_Trésor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_territoire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_travail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_et_gestion_scolaire_et_universitaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_fiscale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_économiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_du_génie_rural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_agriculture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_assainissement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_hydraulique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Animation_de_la_vie_scolaire_et_orientation_scolaire_et_rofessionnelle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_économiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_services_touristiques_et_hôteliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_aménagement_du_territoire_et_en_dévelopement_local"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_archivistique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_bibliothéconomie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_documentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_formation_des_agriculteurs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_gestion_du_patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_journalisme_et_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aviation_civile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Chirurgie_dentaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_économiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_services_touristiques_et_hôteliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_agriculture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_aménagement_du_territoire_et_en_développement_local"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_archivistique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_bibliothéconomie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_documentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_gestion_du_patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_statistique_et_analyse_du_dévelopement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_économie_et_développement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_impôts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_du_trésor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Diagnostic_et_soins_vétérinaires"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Diplomatie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Droits_humains"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Démogaphe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Economie_et_développement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_de_la_petite_enfance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_sociale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_spécialisée"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Emploi_et_formation_professionnelle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Energie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Enseignement_post_primaire_et_secondaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Enseignement_primaire_et_éducation_non_formelle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Etudes_et_analyses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Formation_agricole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gardiennage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_archives"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_bibliothèques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_centres_de_documentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_ressources_humaines_et_management_des_administrations"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_services_de_santé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_du_courrier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_civil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Géologie_et_mines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrogéologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Imagerie_magnétique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Imagerie_médicale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Informatique_et_télécommunication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_du_génie_rural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_assainissement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_hydraulique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_techniques_de_I_S_information_et_de_la_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_du_génie_rural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_assainissement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_hydraulique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_agriculture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_pédologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_vulgarisation_agricole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien_économiste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_des_impôts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_du_trésor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Interprétariat_traduction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Interprétation_judiciaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Jeunesse_et_éducation_permanente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journalisme_et_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journaliste"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Laboratoire_de_biologie_médicale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Laboratoire_des_lycées_et_collèges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Logistique_de_santé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Maintenance_biomédicale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Maintenance_en_météorologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Mines_et_énergie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Médecine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Météorologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Nutrition_et_diététique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:PA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:PB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:PC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pharmacie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Production_agricole"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_du_genre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Psychologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Psychomotricité"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pédologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Reprographie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ressources_halieutiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_communautaire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_environnementale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Sciences_Pharmaceutiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Secrétariat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Services_touristiques_hôteliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Soins_et_production_animaliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Soins_infirmiers_et_obstétricaux"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_de_la_statistique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_du_génie_rural"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_agriculture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_assainissement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_hydraulique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_pédologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Topographie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Transport_terrestre_et_maritime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Urbanisme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_de_l&apos;environnement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conduite_de_véhicules_de_l&apos;Etat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l&apos;hydrologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l’hydrogéologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_de_l&apos;environnement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_d&apos;élevage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;environnement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;hydrologie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="untitled-ontology-29:Emploi"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technologie_d’assistance_médicale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Accueil_et_information_des_usagers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Activités_physique_et_sportive"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_culturelles"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_culturelles"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_culturelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_économiques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_impôts"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_impôts"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_fiscale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_services_financiers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_touristiques_et_hôteliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_des_services_touristiques_et_hôteliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Services_touristiques_hôteliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_du_trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_du_trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_Trésor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_archivistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_archivistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_archives"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_bibliothéconomie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_bibliothéconomie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_bibliothèques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_documentation"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_documentation"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_centres_de_documentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Adjoint_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Patrimoine_culturel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administrateur_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administrateur_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_Lycées_et_collèges"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_Lycées_et_collèges"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_Trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_territoire"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_travail"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_et_gestion_scolaire_et_universitaire"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_fiscale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_culturelles"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Production_agricole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Agent_technique_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Animation_de_la_vie_scolaire_et_orientation_scolaire_et_rofessionnelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Architecture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_culturelles"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_culturelles"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_culturelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_économiques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_services_touristiques_et_hôteliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_des_services_touristiques_et_hôteliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Services_touristiques_hôteliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_aménagement_du_territoire_et_en_dévelopement_local"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_aménagement_du_territoire_et_en_dévelopement_local"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_archivistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_archivistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_archives"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_bibliothéconomie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_bibliothéconomie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_bibliothèques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_documentation"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_documentation"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_centres_de_documentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_formation_des_agriculteurs"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_formation_des_agriculteurs"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Formation_agricole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Patrimoine_culturel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_journalisme_et_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assistant_en_journalisme_et_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journalisme_et_communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aviation_civile"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Chirurgie_dentaire"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_culturelles"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_culturelles"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_culturelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_affaires_économiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Affaires_économiques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_services_touristiques_et_hôteliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_des_services_touristiques_et_hôteliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Services_touristiques_hôteliers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Formation_agricole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_aménagement_du_territoire_et_en_développement_local"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Aménagement_du_territoire_et_développement_local"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_archivistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_archivistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_archives"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_bibliothéconomie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_bibliothéconomie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_bibliothèques"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journalisme_et_communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_documentation"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_documentation"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_centres_de_documentation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Patrimoine_culturel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_statistique_et_analyse_du_dévelopement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_statistique_et_analyse_du_dévelopement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_économie_et_développement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Conseiller_en_économie_et_développement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Economie_et_développement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_impôts"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_impôts"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_fiscale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_des_services_financiers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_des_services_financiers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_du_trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Contrôleur_du_trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_Trésor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Diagnostic_et_soins_vétérinaires"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Diplomatie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Droits_humains"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Démogaphe"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Démogaphe"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Economie_et_développement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_de_la_petite_enfance"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_sociale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Education_spécialisée"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Emploi_et_formation_professionnelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Energie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Mines_et_énergie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Enseignement_post_primaire_et_secondaire"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Enseignement_primaire_et_éducation_non_formelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Etudes_et_analyses"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Formation_agricole"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gardiennage"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_archives"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_bibliothèques"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_centres_de_documentation"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_ressources_humaines_et_management_des_administrations"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_des_services_de_santé"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Gestion_du_courrier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_civil"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Géologie_et_mines"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Mines_et_énergie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrogéologie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrologie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Imagerie_magnétique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Imagerie_médicale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Informatique_et_télécommunication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_de_conception_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_techniques_de_I_S_information_et_de_la_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_techniques_de_I_S_information_et_de_la_communication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_des_travaux_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Production_agricole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_pédologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_pédologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pédologie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_vulgarisation_agricole"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_en_vulgarisation_agricole"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Formation_agricole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien_économiste"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ingénieur_statisticien_économiste"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_des_impôts"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_des_impôts"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_fiscale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_du_trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Inspecteur_du_trésor"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_du_Trésor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Interprétariat_traduction"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Interprétation_judiciaire"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Jeunesse_et_éducation_permanente"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journalisme_et_communication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journaliste"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journaliste"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Journalisme_et_communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Laboratoire_de_biologie_médicale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Laboratoire_des_lycées_et_collèges"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Logistique_de_santé"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Maintenance_biomédicale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Maintenance_en_météorologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Médecine"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Météorologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Nutrition_et_diététique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Patrimoine_culturel"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pharmacie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Production_agricole"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_du_genre"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Psychologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Psychomotricité"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pédologie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Reprographie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Ressources_halieutiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_communautaire"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_environnementale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Sciences_Pharmaceutiques"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Secrétariat"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Services_touristiques_hôteliers"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Soins_et_production_animaliers"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Soins_infirmiers_et_obstétricaux"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_de_la_statistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_de_la_statistique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Statistiques_et_démographie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_du_génie_rural"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Génie_rural"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_agriculture"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Production_agricole"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_assainissement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Assainissement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_hydraulique"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydraulique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_pédologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Technicien_supérieur_en_pédologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Pédologie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Topographie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Transport_terrestre_et_maritime"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Urbanisme"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_de_l&apos;environnement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_de_l&apos;environnement"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_des_sciences_de_l&apos;information_et_de_la_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_des_sciences_de_l&apos;information_et_de_la_communication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conduite_de_véhicules_de_l&apos;Etat"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l&apos;hydrologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l&apos;hydrologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrologie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l’hydrogéologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l’hydrogéologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrogéologie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_de_l&apos;environnement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_de_l&apos;environnement"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_d&apos;élevage"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;environnement"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;environnement"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;hydrologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;hydrologie"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Hydrologie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technologie_d’assistance_médicale"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Administration_économique_et_financière"/>
+        <Literal xml:lang="fr">Administration économiq ue et financière</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:GOUVERNANCE_ADMINISTRATIVE"/>
+        <Literal xml:lang="fr">Gouvernage Administrative</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Infrastructures"/>
+        <Literal xml:lang="fr">Infrastructures</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Mines_et_énergie"/>
+        <Literal xml:lang="fr">Mine et énergie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Promotion_et_protection_des_droits_humains"/>
+        <Literal xml:lang="fr">Promation et protection des drois humains</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:STRUCTURANT"/>
+        <Literal xml:lang="fr">Structurant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual abbreviatedIRI="untitled-ontology-29:Santé_humaine_et_animale"/>
+        <Literal xml:lang="fr">Santé humaine et animale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+        <Literal xml:lang="fr">Communication, culture et tourisme</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+        <Literal xml:lang="fr">Eau, agriculture et environnement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+        <Literal xml:lang="fr">Education, formation et
+promotion de l&apos;emploi</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourCategorieEchelle"/>
+            <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourFamille"/>
+            <Class IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty abbreviatedIRI="untitled-ontology-29:aPourMetier"/>
+            <Class abbreviatedIRI="untitled-ontology-29:Métier"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c</IRI>
+        <Literal xml:lang="fr">Nom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>untitled-ontology-29:aPourFamille</AbbreviatedIRI>
+        <Literal xml:lang="fr">Un emploi à pour famille d&apos;emploi</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+

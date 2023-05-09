@@ -1,0 +1,1851 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/rime01/"
+     xml:base="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/rime01/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:RIME_04_0756="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#"
+     xmlns:untitled-ontology-29="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourCategorieEchelle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourCategorieEchelle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourFamille -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourFamille">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <rdfs:comment xml:lang="fr">Un emploi à pour famille d&apos;emploi</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourFamille"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourCategorieEchelle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourFamille"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="fr">Nom</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Accueil_et_information_des_usagers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Accueil_et_information_des_usagers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Activités_physique_et_sportive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Activités_physique_et_sportive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_affaires_culturelles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_culturelles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_affaires_économiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_affaires_économiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_économiques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_impôts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_impôts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_fiscale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_services_financiers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_services_financiers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_services_touristiques_et_hôteliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_des_services_touristiques_et_hôteliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Services_touristiques_hôteliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_du_trésor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_du_trésor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_Trésor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_archivistique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_archivistique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_archives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_bibliothéconomie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_bibliothéconomie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_bibliothèques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cinéma_et_audiovisuel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_centres_de_documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_gestion_du_patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Adjoint_en_gestion_du_patrimoine_culturel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Patrimoine_culturel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administrateur_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administrateur_des_services_financiers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_Lycées_et_collèges"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_Lycées_et_collèges -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_Lycées_et_collèges">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_services_financiers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_Trésor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_Trésor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_territoire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_territoire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_travail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_travail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_et_gestion_scolaire_et_universitaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_et_gestion_scolaire_et_universitaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_fiscale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_fiscale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Administration économiq ue et financière</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_culturelles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_économiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_économiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_du_génie_rural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_du_génie_rural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_en_agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_en_agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Production_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_en_assainissement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_en_assainissement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assainissement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_en_hydraulique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_en_hydraulique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydraulique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aménagement_du_territoire_et_développement_local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aménagement_du_territoire_et_développement_local">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aménagement_du_territoire_et_développement_local"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Animation_de_la_vie_scolaire_et_orientation_scolaire_et_rofessionnelle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Animation_de_la_vie_scolaire_et_orientation_scolaire_et_rofessionnelle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Architecture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Architecture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assainissement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assainissement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_des_affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_des_affaires_culturelles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_culturelles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_des_affaires_économiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_des_affaires_économiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_économiques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_des_services_touristiques_et_hôteliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_des_services_touristiques_et_hôteliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Services_touristiques_hôteliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_aménagement_du_territoire_et_en_dévelopement_local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_aménagement_du_territoire_et_en_dévelopement_local">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aménagement_du_territoire_et_développement_local"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_archivistique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_archivistique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_archives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_bibliothéconomie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_bibliothéconomie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_bibliothèques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cinéma_et_audiovisuel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_centres_de_documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_formation_des_agriculteurs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_formation_des_agriculteurs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Formation_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_gestion_du_patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_gestion_du_patrimoine_culturel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Patrimoine_culturel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_journalisme_et_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assistant_en_journalisme_et_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journalisme_et_communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aviation_civile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aviation_civile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chirurgie_dentaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chirurgie_dentaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_des_affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_des_affaires_culturelles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_culturelles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_des_affaires_économiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_des_affaires_économiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Affaires_économiques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_des_services_touristiques_et_hôteliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_des_services_touristiques_et_hôteliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Services_touristiques_hôteliers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Formation_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_aménagement_du_territoire_et_en_développement_local -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_aménagement_du_territoire_et_en_développement_local">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Aménagement_du_territoire_et_développement_local"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_archivistique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_archivistique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_archives"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_bibliothéconomie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_bibliothéconomie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_bibliothèques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cinéma_et_audiovisuel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journalisme_et_communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_centres_de_documentation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_gestion_du_patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_gestion_du_patrimoine_culturel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Patrimoine_culturel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_statistique_et_analyse_du_dévelopement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_statistique_et_analyse_du_dévelopement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Statistiques_et_démographie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_économie_et_développement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conseiller_en_économie_et_développement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Economie_et_développement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Contrôleur_des_impôts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Contrôleur_des_impôts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_fiscale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Contrôleur_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Contrôleur_des_services_financiers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_des_services_financiers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Contrôleur_du_trésor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Contrôleur_du_trésor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_Trésor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Diagnostic_et_soins_vétérinaires -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Diagnostic_et_soins_vétérinaires">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Diplomatie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Diplomatie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Droits_humains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Droits_humains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Démogaphe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Démogaphe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Economie_et_développement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Economie_et_développement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education_de_la_petite_enfance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education_de_la_petite_enfance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education_sociale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education_sociale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education_spécialisée -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education_spécialisée">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi_et_formation_professionnelle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi_et_formation_professionnelle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Energie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Energie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Mines_et_énergie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Enseignement_post_primaire_et_secondaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Enseignement_post_primaire_et_secondaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Enseignement_primaire_et_éducation_non_formelle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Enseignement_primaire_et_éducation_non_formelle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Etudes_et_analyses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Etudes_et_analyses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Formation_agricole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Formation_agricole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Gouvernage Administrative</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gardiennage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gardiennage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_archives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_archives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_bibliothèques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_bibliothèques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_centres_de_documentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_centres_de_documentation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_ressources_humaines_et_management_des_administrations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_ressources_humaines_et_management_des_administrations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_services_de_santé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_des_services_de_santé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_du_courrier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_du_courrier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_civil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_civil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_rural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_rural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Géologie_et_mines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Géologie_et_mines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Mines_et_énergie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydraulique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydraulique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrogéologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrogéologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Imagerie_magnétique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Imagerie_magnétique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Imagerie_médicale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Imagerie_médicale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Informatique_et_télécommunication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Informatique_et_télécommunication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Infrastructures</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_du_génie_rural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_du_génie_rural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_en_assainissement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_en_assainissement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assainissement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_en_hydraulique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_en_hydraulique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydraulique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_techniques_de_I_S_information_et_de_la_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_techniques_de_I_S_information_et_de_la_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_travaux_du_génie_rural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_travaux_du_génie_rural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A3"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_travaux_en_assainissement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_travaux_en_assainissement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A3"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assainissement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_travaux_en_hydraulique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_des_travaux_en_hydraulique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A3"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydraulique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_en_agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_en_agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Production_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_en_pédologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_en_pédologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Pédologie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_en_vulgarisation_agricole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_en_vulgarisation_agricole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Formation_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_statisticien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_statisticien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A2"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Statistiques_et_démographie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_statisticien_économiste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_statisticien_économiste">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A2"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Statistiques_et_démographie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_des_impôts -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_des_impôts">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_fiscale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_du_trésor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_du_trésor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_du_Trésor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Interprétariat_traduction -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Interprétariat_traduction">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Interprétation_judiciaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Interprétation_judiciaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Jeunesse_et_éducation_permanente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Jeunesse_et_éducation_permanente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journalisme_et_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journalisme_et_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journaliste -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journaliste">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Journalisme_et_communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_de_biologie_médicale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_de_biologie_médicale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_des_lycées_et_collèges -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_des_lycées_et_collèges">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Logistique_de_santé -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Logistique_de_santé">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Maintenance_biomédicale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Maintenance_biomédicale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Maintenance_en_météorologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Maintenance_en_météorologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Mines_et_énergie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Mines_et_énergie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Mine et énergie</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Médecine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Médecine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Météorologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Météorologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Nutrition_et_diététique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Nutrition_et_diététique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#PA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#PA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#PB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#PB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#PC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#PC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Patrimoine_culturel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Pharmacie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Pharmacie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Production_agricole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Production_agricole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_du_genre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_du_genre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Promation et protection des drois humains</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Psychologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Psychologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Psychomotricité -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Psychomotricité">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Pédologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Pédologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Reprographie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Reprographie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ressources_halieutiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ressources_halieutiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Structurant</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_communautaire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_communautaire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_environnementale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_environnementale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Santé humaine et animale</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Sciences_Pharmaceutiques -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Sciences_Pharmaceutiques">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Secrétariat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Secrétariat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Services_touristiques_hôteliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Services_touristiques_hôteliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Soins_et_production_animaliers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Soins_et_production_animaliers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Soins_infirmiers_et_obstétricaux -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Soins_infirmiers_et_obstétricaux">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Statistiques_et_démographie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Statistiques_et_démographie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_la_statistique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_la_statistique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Statistiques_et_démographie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_du_génie_rural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_du_génie_rural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Génie_rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_agriculture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_agriculture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Production_agricole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_assainissement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_assainissement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Assainissement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_hydraulique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_hydraulique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydraulique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_pédologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_en_pédologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Pédologie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Topographie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Topographie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Transport_terrestre_et_maritime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Transport_terrestre_et_maritime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Urbanisme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Urbanisme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_de_l&apos;environnement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_de_l&apos;environnement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_des_sciences_de_l&apos;information_et_de_la_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Agent_technique_des_sciences_de_l&apos;information_et_de_la_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#C1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Chimiste_de_l&apos;eau"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Communication, culture et tourisme</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conduite_de_véhicules_de_l&apos;Etat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Conduite_de_véhicules_de_l&apos;Etat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Eau, agriculture et environnement</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Education, formation et
+promotion de l&apos;emploi</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l&apos;hydrologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l&apos;hydrologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrologie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l’hydrogéologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_de_conception_de_l’hydrogéologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrogéologie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cinéma_et_audiovisuel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_de_l&apos;environnement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Inspecteur_de_l&apos;environnement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#A1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_d&apos;élevage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Laboratoire_d&apos;élevage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;environnement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;environnement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Gestion_de_l&apos;environnement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;hydrologie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_de_l&apos;hydrologie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Hydrologie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Emploi"/>
+        <untitled-ontology-29:aPourCategorieEchelle rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#B1"/>
+        <untitled-ontology-29:aPourFamille rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technicien_supérieur_des_sciences_de_l&apos;information_et_de_la_communication"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technique_des_sciences_de_l&apos;information_et_la_communication">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technologie_d’assistance_médicale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Technologie_d’assistance_médicale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+        <untitled-ontology-29:aPourMetier rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
