@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#"
-     xml:base="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756"
+<rdf:RDF xmlns="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/rime01/"
+     xml:base="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/rime01/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:RIME_04_0756="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#"
      xmlns:untitled-ontology-29="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756"/>
@@ -72,10 +73,29 @@
     
 
 
-    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier -->
+    <!-- http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/RIME_04_0756#OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourCategorieEchelle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourFamille"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Familles_d&apos;emplois"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+            </owl:Restriction>
+        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="fr">Nom</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -359,6 +379,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Administration_économique_et_financière">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Administration économiq ue et financière</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -933,6 +954,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#GOUVERNANCE_ADMINISTRATIVE">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Gouvernage Administrative</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1085,6 +1107,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Infrastructures">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Infrastructures</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1324,6 +1347,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Mines_et_énergie">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Mine et énergie</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1419,6 +1443,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Promotion_et_protection_des_droits_humains">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Promation et protection des drois humains</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1472,6 +1497,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#STRUCTURANT">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Structurant</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1498,6 +1524,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Santé_humaine_et_animale">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Santé humaine et animale</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1677,6 +1704,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Communication,_culture_et_tourisme">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Communication, culture et tourisme</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1694,6 +1722,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Eau,_agriculture_et_environnement">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Eau, agriculture et environnement</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1702,6 +1731,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Education,_formation_et_promotion_de_l&apos;emploi">
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Métier"/>
+        <RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c xml:lang="fr">Education, formation et
+promotion de l&apos;emploi</RIME_04_0756:OWLDataProperty_36fac9fc_0464_49b4_9050_3a8597aa292c>
     </owl:NamedIndividual>
     
 
@@ -1811,20 +1842,6 @@
     </owl:NamedIndividual>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#Cotégorie/echelle"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/2/untitled-ontology-29#aPourMetier">
-        <rdfs:comment xml:lang="fr">Les famille d&apos;emplois à pour métier</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
