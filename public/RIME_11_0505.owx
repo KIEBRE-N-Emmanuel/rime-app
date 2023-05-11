@@ -1,0 +1,648 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:kiebre_rime"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:absolute:kiebre_rime">
+    <Prefix name="" IRI="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/11/untitled-ontology-11/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adjoint_des_affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adjoint_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adjoint_en_cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adjoint_en_gestion_du_patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Administrateur_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Administration_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Administration_du_Trésor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Administration_fiscale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Affaires_économiques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aménagement_du_territoire_et_développement_local"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assistant_des_affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assistant_en_cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Assistant_en_gestion_du_patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#B3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conseiller_des_affaires_culturelles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conseiller_en_cinéma_et_audiovisuel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Conseiller_en_gestion_du_patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Contrôleur_des_services_financiers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Economie_et_développement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gestion_des_archives"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gestion_des_bibliothèques"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gestion_des_centres_de_documentation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Journalisme_et_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Patrimoine_culturel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Services_touristiques_et_hôteliers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statistiques_et_démographie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Technique_des_sciences_de_information_et_de_la_communication"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <Class IRI="#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#A1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Adjoint_des_affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Adjoint_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Adjoint_en_cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Adjoint_en_gestion_du_patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Administrateur_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Administration_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Administration_du_Trésor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Administration_fiscale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Affaires_économiques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Aménagement_du_territoire_et_développement_local"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Assistant_des_affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Assistant_en_cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Assistant_en_gestion_du_patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#B1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#B2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#B3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#C1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#C2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#C3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Conseiller_des_affaires_culturelles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Conseiller_en_cinéma_et_audiovisuel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Conseiller_en_gestion_du_patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Contrôleur_des_services_financiers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Economie_et_développement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Gestion_des_archives"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Gestion_des_bibliothèques"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Gestion_des_centres_de_documentation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Journalisme_et_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#PA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#PB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+        <NamedIndividual IRI="#PC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Patrimoine_culturel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Services_touristiques_et_hôteliers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Statistiques_et_démographie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <NamedIndividual IRI="#Technique_des_sciences_de_information_et_de_la_communication"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <NamedIndividual IRI="#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Adjoint_des_affaires_culturelles"/>
+        <NamedIndividual IRI="#Affaires_culturelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Adjoint_des_affaires_culturelles"/>
+        <NamedIndividual IRI="#C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Adjoint_des_services_financiers"/>
+        <NamedIndividual IRI="#Administration_des_services_financiers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Adjoint_des_services_financiers"/>
+        <NamedIndividual IRI="#C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Adjoint_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Adjoint_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Adjoint_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual IRI="#Patrimoine_culturel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Adjoint_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual IRI="#C1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Administrateur_des_services_financiers"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Administrateur_des_services_financiers"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Administration_des_services_financiers"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Administration_du_Trésor"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Administration_fiscale"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Affaires_culturelles"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Affaires_économiques"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Aménagement_du_territoire_et_développement_local"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Assistant_des_affaires_culturelles"/>
+        <NamedIndividual IRI="#Affaires_culturelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Assistant_des_affaires_culturelles"/>
+        <NamedIndividual IRI="#B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Assistant_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Assistant_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Assistant_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual IRI="#Patrimoine_culturel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Assistant_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual IRI="#B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Conseiller_des_affaires_culturelles"/>
+        <NamedIndividual IRI="#Affaires_culturelles"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Conseiller_des_affaires_culturelles"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Conseiller_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Conseiller_en_cinéma_et_audiovisuel"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Conseiller_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual IRI="#Patrimoine_culturel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Conseiller_en_gestion_du_patrimoine_culturel"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Contrôleur_des_services_financiers"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Contrôleur_des_services_financiers"/>
+        <NamedIndividual IRI="#B1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Economie_et_développement"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Gestion_des_archives"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Gestion_des_bibliothèques"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Gestion_des_centres_de_documentation"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Journalisme_et_communication"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Patrimoine_culturel"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Services_touristiques_et_hôteliers"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Statistiques_et_démographie"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <NamedIndividual IRI="#Technique_des_sciences_de_information_et_de_la_communication"/>
+        <NamedIndividual IRI="#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <NamedIndividual IRI="#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+        <NamedIndividual IRI="#Cinéma_et_audiovisuel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPourCategorieEchelle"/>
+        <NamedIndividual IRI="#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel"/>
+        <NamedIndividual IRI="#A1"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3"/>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971"/>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3"/>
+        <Class IRI="#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971"/>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3"/>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971"/>
+        <Class IRI="#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <Class IRI="#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <Class IRI="#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8</IRI>
+        <Literal xml:lang="fr">metier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c</IRI>
+        <Literal xml:lang="fr">categorieEchelle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db</IRI>
+        <Literal xml:lang="fr">emploi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e</IRI>
+        <Literal xml:lang="fr">familleEmploi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619</IRI>
+        <Literal xml:lang="fr">Administration économique et financière</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f</IRI>
+        <Literal xml:lang="fr">Communication, culture et tourisme</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3</IRI>
+        <Literal xml:lang="fr">aPourFamille</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971</IRI>
+        <Literal xml:lang="fr">aPourEmploi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2</IRI>
+        <Literal xml:lang="fr">appartienAFamille</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9</IRI>
+        <Literal xml:lang="fr">apartienA</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+

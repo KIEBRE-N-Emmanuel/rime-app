@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/11/untitled-ontology-11/"
+     xml:base="http://www.semanticweb.org/kiebre_le_fariam/ontologies/2023/4/11/untitled-ontology-11/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:kiebre_rime="urn:absolute:kiebre_rime#">
+    <owl:Ontology rdf:about="urn:absolute:kiebre_rime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3 -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:kiebre_rime#OWLObjectProperty_6a165507_72a6_4867_841c_b635949729a3">
+        <owl:inverseOf rdf:resource="urn:absolute:kiebre_rime#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9"/>
+        <rdfs:domain rdf:resource="urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <rdfs:range rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <rdfs:label xml:lang="fr">aPourFamille</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971 -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:kiebre_rime#OWLObjectProperty_c8f238eb_370b_4b82_8ea5_a895c5e01971">
+        <owl:inverseOf rdf:resource="urn:absolute:kiebre_rime#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2"/>
+        <rdfs:domain rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <rdfs:range rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <rdfs:label xml:lang="fr">aPourEmploi</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:kiebre_rime#OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2">
+        <rdfs:domain rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <rdfs:range rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <rdfs:label xml:lang="fr">appartienAFamille</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:kiebre_rime#OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9">
+        <rdfs:domain rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <rdfs:range rdf:resource="urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <rdfs:label xml:lang="fr">apartienA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#aPourCategorieEchelle -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute:kiebre_rime#aPourCategorieEchelle"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8 -->
+
+    <owl:Class rdf:about="urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8">
+        <rdfs:label xml:lang="fr">metier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c -->
+
+    <owl:Class rdf:about="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c">
+        <rdfs:label xml:lang="fr">categorieEchelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db -->
+
+    <owl:Class rdf:about="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db">
+        <rdfs:subClassOf rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <rdfs:label xml:lang="fr">emploi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e -->
+
+    <owl:Class rdf:about="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e">
+        <rdfs:subClassOf rdf:resource="urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <rdfs:label xml:lang="fr">familleEmploi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute:kiebre_rime#A1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#A1">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#A2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#A2"/>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#A3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#A3"/>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Adjoint_des_affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Adjoint_des_affaires_culturelles">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Affaires_culturelles"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Adjoint_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Adjoint_des_services_financiers">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Administration_des_services_financiers"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Adjoint_en_cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Adjoint_en_cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Cinéma_et_audiovisuel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Adjoint_en_gestion_du_patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Adjoint_en_gestion_du_patrimoine_culturel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Patrimoine_culturel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Administrateur_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Administrateur_des_services_financiers">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#A1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Administration_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Administration_des_services_financiers">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Administration_du_Trésor -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Administration_du_Trésor">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Administration_fiscale -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Administration_fiscale">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Affaires_culturelles">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Affaires_économiques -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Affaires_économiques">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Aménagement_du_territoire_et_développement_local -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Aménagement_du_territoire_et_développement_local">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Assistant_des_affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Assistant_des_affaires_culturelles">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Affaires_culturelles"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#B1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Assistant_en_cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Assistant_en_cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Cinéma_et_audiovisuel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#B1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Assistant_en_gestion_du_patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Assistant_en_gestion_du_patrimoine_culturel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Patrimoine_culturel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#B1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#B1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#B1">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#B2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#B2">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#B3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#B3">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#C1 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#C1">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#C2 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#C2">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#C3 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#C3">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Conseiller_des_affaires_culturelles -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Conseiller_des_affaires_culturelles">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Affaires_culturelles"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#A1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Conseiller_en_cinéma_et_audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Conseiller_en_cinéma_et_audiovisuel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Cinéma_et_audiovisuel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#A1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Conseiller_en_gestion_du_patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Conseiller_en_gestion_du_patrimoine_culturel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Patrimoine_culturel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#A1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Contrôleur_des_services_financiers -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Contrôleur_des_services_financiers">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#B1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Economie_et_développement -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Economie_et_développement">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Gestion_des_archives -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Gestion_des_archives">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Gestion_des_bibliothèques -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Gestion_des_bibliothèques">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Gestion_des_centres_de_documentation -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Gestion_des_centres_de_documentation">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Journalisme_et_communication -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Journalisme_et_communication">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619 -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <rdfs:label xml:lang="fr">Administration économique et financière</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_341b4f72_1a08_4673_abb2_55cb0606edb8"/>
+        <rdfs:label xml:lang="fr">Communication, culture et tourisme</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#PA -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#PA">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#PB -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#PB">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#PC -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#PC">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_5a799570_1654_4560_a396_d3d23a9a627c"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Patrimoine_culturel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Patrimoine_culturel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Services_touristiques_et_hôteliers -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Services_touristiques_et_hôteliers">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Statistiques_et_démographie -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Statistiques_et_démographie">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_1c18b8e1_2f4c_4936_9769_9c8258989619"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Technique_des_sciences_de_information_et_de_la_communication -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Technique_des_sciences_de_information_et_de_la_communication">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_e36209c1_3a6f_44c2_8cc8_022ad862173e"/>
+        <kiebre_rime:OWLObjectProperty_fe4ff284_6200_42fc_837b_6b8877cafef9 rdf:resource="urn:absolute:kiebre_rime#OWLNamedIndividual_c4c37049_7a8c_4a43_8749_a5bd02bd594f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- urn:absolute:kiebre_rime#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel -->
+
+    <owl:NamedIndividual rdf:about="urn:absolute:kiebre_rime#Ingénieur_du_cinéma_et_de_l&apos;audiovisuel">
+        <rdf:type rdf:resource="urn:absolute:kiebre_rime#OWLClass_9a993dc6_3eea_40ba_a59f_2854656240db"/>
+        <kiebre_rime:OWLObjectProperty_e11a4c72_e8c3_40df_91b5_48594f72ebc2 rdf:resource="urn:absolute:kiebre_rime#Cinéma_et_audiovisuel"/>
+        <kiebre_rime:aPourCategorieEchelle rdf:resource="urn:absolute:kiebre_rime#A1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
